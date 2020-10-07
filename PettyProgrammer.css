@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+  
+/* wrapper css part */
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: #f6fafd;
+}
+/* header css part */
+#header{
+    width: 100%;
+    padding: 15px 40px;
+    background-color: #eeeeee;
+}
+/* navbar css part */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+/* logo css part */
+.navbar .logo h1{
+    color:#000;
+}
+/* menu ul css part */
+.navbar ul{
+    display: flex;
+}
+/* menu ul li css part */
+.navbar ul li{
+    padding: 10px 20px;
+}
+/* menu ul li a css part */
+.navbar ul li a{
+    font-family: Montserrat;
+    font-size: 20px;
+    color:#3d4657;
+    transition: 0.2s ease-in-out;
+}
+/* menu ul li a:hover css part */
+.navbar ul li a:hover{
+    color:#000;
+}
+/* menu ul li.model css part */
+.model{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid#9999;
+}
+/* menu ul li.model i css part */
+.model i{
+    transform: rotate(180deg);
+    margin: 0px 5px 0px 6px;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+}
+/* menu ul li.model:hover i css part */
+.model i:hover{
+    color:#fb6767;
+    cursor: pointer;
+}
+/* navbar_tool css part */
+.navbar_tool{
+    display: flex;
+}
+/* navbar_tool a css part */
+.navbar_tool a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    color:#9999;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color:#d4d4d499;
+    position: relative;
+    transition: all .3s ease-in-out;
+}
+/* navbar_tool a:hover css part */
+.navbar_tool a:hover{
+    color:#000;
+}
+/* navbar_tool a.shop_icon h6 css part */
+.navbar_tool .shop_icon h6{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color:#fb6767;
+    border-radius: 50%;
+    line-height: 20px;
+    color:#fff;
+    font-family: arial;
+}
+/* section css part  */
+.section{
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 13px 0 130px;
+}
+/* section content title css part  */
+.title{
+    font-family:Montserrat SemiBold ;
+    margin-bottom: 10px;
+}
+/* section content sub_title css part  */
+.sub_title{
+    font-family: Segoe UI Black;
+    font-weight: bold;
+    font-size: 35px;
+    color:#00000088;
+}
+/* card-content css part */
+.card_content{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+/* card-content button css part */
+.card_content button{
+    border: none;
+    outline: none;
+    background-color:#fb6767;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color:#fff;
+    transition: all .3s ease-in-out;
+}
+/* card-content button:hover css part */
+.card_content button:hover{
+    background-color: #ee5050;
+}
+/* card-content button i css part */
+.card_content button i{
+    margin-right: 5px;
+}
+/* card-content price css part */
+.card_content h4{
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: arial;
+}
+/* des css part */
+.des{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+/* des a css part */
+.des a{
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: arial;
+    color:#1e2738;
+}
+/* des a i css part */
+.des a i{
+    margin-right: 10px;
+}
+/* banner img css part */
+.banner img{
+    position: relative;
+    width: 400px;
+    top:-80px;
+    right: 15px;
+}
